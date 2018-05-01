@@ -1,5 +1,6 @@
 .navbar2 {
   display: flex;
+  height: 100px;
   img {
     border: solid;
     width: 100%;
@@ -10,12 +11,13 @@
     width: 100%;
     text-align: center;
     text-decoration: none;
-    color: white;
-    background-color: $brown;
+    color: $brown;
+
     height: 40px;
     line-height: 40px;
+    text-shadow: 1px 1px 0 rgba(140,140,140,0.6) , -0.5px -0.5px 0px rgba(0,0,0,0.67);
     &:hover {
-      background-color: $light-taupe ;
+      text-decoration: underline;
     }
   }
 }
