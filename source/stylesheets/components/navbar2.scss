@@ -1,0 +1,21 @@
+.navbar2 {
+  display: flex;
+  img {
+    border: solid;
+    width: 100%;
+  }
+  a {
+    padding: auto;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: $brown;
+    height: 40px;
+    line-height: 40px;
+    &:hover {
+      background-color: $light-taupe ;
+    }
+  }
+}
