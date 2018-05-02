@@ -12,6 +12,21 @@
     <%= favicon_tag 'images/favicon.png' %>
   </head>
   <body>
+    <header></header>
+    <nav class="navbar2">
+        <%= image_tag "logo-audrey.png", height: "140" %>
+        <div class="nav-links">
+          <a href="index.html">Accueil</a>
+          <a href="/services-coiffure.html">Services</a>
+          <a href="/contact.html">Rendez-vous</a>
+        </div>
+    </nav>
     <%= yield %>
+    <footer>
+      <a href="#">Accueil</a>
+      <a href="#">Services</a>
+      <a href="#">Rendez-vous</a>
+      <address>2 route de sturzelbronn</address>
+    </footer>
   </body>
 </html>
